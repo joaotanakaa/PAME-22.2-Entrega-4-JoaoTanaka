@@ -1,0 +1,29 @@
+.search {
+    border: 1px solid #047727;
+    border-radius: 5px;
+    height: 3.5vh;
+    width: 80%;
+    padding: 2px 23px 2px 30px;
+    outline: 0;
+    background-color: white;
+  }
+
+  .search:hover, .search:focus {
+    border: 1.5px solid #009688;
+    background-color: #f5f8ff;
+  }
+
+
+
+.button1 {
+  background-color: #047727; 
+  color: white; 
+  border: 2px solid #047727;
+  border-radius: 10px 5%;
+}
+
+
+.button1:hover {
+  background-color: #f5f8ff;
+  color: black;
+}

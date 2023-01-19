@@ -1,0 +1,17 @@
+.informacoes {
+    position: absolute;
+    width: 100%;
+    bottom: 0px;
+    opacity: 0.8;
+    background-color: #047727;
+    color: black;
+    height: 70px;
+    font-size: 200%;
+    border-radius: 10px 5%;
+    align-items: left;
+    font-weight: bold;
+  }
+
+
+
+  

@@ -1,0 +1,74 @@
+button {
+    background-color: #047727; /* Green */
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+}
+
+
+
+  .button2 {
+    background-color: #047727; 
+    color: white; 
+    border: 2px solid #047727;
+    height: 2.5vh;
+    justify-content: center;
+    text-align: center;
+    border-radius: 10px 5%;
+    
+  }
+
+  .button2:hover {
+    background-color: #f5f8ff;
+    color: black;
+  }
+
+.header{
+    display: flex;
+    flex-direction: row;
+    position: center;
+    align-items: center;
+    justify-content: center;
+    margin: 0 30px;
+}
+
+.login_cadastrar{
+  display: flex;
+  flex-direction: row;
+  position: left;
+  align-items: left;
+  justify-content: left;
+  margin: 0 30px;
+}
+
+.tittle h1 {
+  text-align: center;
+      font-size:70px; font-weight:300; color:#222; letter-spacing:1px;
+      text-transform: uppercase;
+  
+      display: grid;
+      grid-template-columns: 1fr max-content 1fr;
+      grid-template-rows: 27px 0;
+      grid-gap: 20px;
+      align-items: center;
+  }
+  
+  .tittle h1:after,.tittle h1:before {
+      content: " ";
+      display: block;
+      border-bottom: 2px solid #047727;
+      border-top: 2px solid #047727;
+      height: 5px;
+    background-color:#f8f8f8;
+  }
+  
+
+
+
